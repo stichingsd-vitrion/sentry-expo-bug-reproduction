@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.vitrion.dev/",
+          "organization": "vitrion",
+          "project": "vsentry"
+        }
+      ]
+    ],
+    "name": "vsentry",
+    "slug": "vsentry",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vitrionbv.vsentry"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vitrionbv.vsentry"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
