@@ -4,7 +4,7 @@
       [
         "@sentry/react-native/expo",
         {
-          "url": "https://sentry.vitrion.dev/",
+          "url": "https://sentry.io/",
           "organization": "vitrion",
           "project": "vsentry"
         }
